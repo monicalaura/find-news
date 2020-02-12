@@ -45,7 +45,7 @@ input.search-bar{
 }
 
 .search-button{
-  width: 10%;
+  width: 15%;
     height: 3.5rem;
   background: rgb(93,106,200);
   background: linear-gradient(0deg, rgba(93,106,200,1) 0%, rgba(62,92,162,1) 39%, rgba(1,10,79,1) 91%);
@@ -55,4 +55,10 @@ input.search-bar{
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .search-button{
+  width:40%;
+  }
 }
