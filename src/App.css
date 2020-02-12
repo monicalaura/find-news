@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.header { 
+    
+  text-align: center;
+  line-height: 105px;
+  background-image: url(./img/banner.jpg);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.header h1{
+  color: #fefefe;
+  font-size: 3rem;
+  padding: 2.2rem 0;
+}
+
+.news-cards{
+  margin-top: 2rem;
+}
+
+.search-form{
+  min-height:10vh;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+
+}
+input.search-bar{
+  width: 50%;
+  height: 3rem;
+  border: none;
+  font-size: 1.4rem;
+  color: #63717f;
+  padding:10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.search-button{
+  width: 10%;
+    height: 3.5rem;
+  background: rgb(93,106,200);
+  background: linear-gradient(0deg, rgba(93,106,200,1) 0%, rgba(62,92,162,1) 39%, rgba(1,10,79,1) 91%);
+  color:#ffffff;
+  font-size:1.3rem;
+  border-left:none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
